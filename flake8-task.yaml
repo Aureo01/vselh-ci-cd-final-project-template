@@ -11,7 +11,7 @@ spec:
       default: "python:3.9-slim"
     - name: args
       type: string
-      default: []
+      default: ""
   steps:
     - name: flake8
       image: $(params.image)
